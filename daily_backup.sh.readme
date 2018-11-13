@@ -1,0 +1,5 @@
+这是一个自动备份的文件，搭配/etc/crontab使用。
+在/etc/crontab 中添加
+int(mim) int(hour) * * * root path(the script path)
+前两个表示在每天的几点几分运行 root表示运行的用户
+后面事脚本运行的命令，sh脚本只需要路径即可
